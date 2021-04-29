@@ -5,10 +5,10 @@
 }
 
 .wrapper{
-    max-width: 1340px;
+    max-width: 1440px;
     margin: 0 auto;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 
@@ -42,9 +42,13 @@ border-top: 3px solid;
     font-weight: 600;
 }
 
+.titreh1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
 .recherche{
-    margin: 10px;
-    padding: 10px;
+    margin: 20px;
     display: flex;
     margin-left: 0;
     padding-left: 0;
@@ -52,14 +56,15 @@ border-top: 3px solid;
 
 .mapmarkericone{
     background-color: #F2F2F2;
-    padding: 12px 15px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    padding: 15px 21px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 .barrederecherche{
-    width: 200px;
+    width: 234px;
     font-weight: 600;
+    font-size: 16px;
     border-right: none;
     border-left: none;
     border-top : 1px #F2F2F2 solid;
@@ -68,10 +73,11 @@ border-top: 3px solid;
 }
 
 .boutonrecherche{
-    width: 120px;
+    width: 134px;
     color: white;
     background-color: #0065FC;
     font-weight: bold;
+    font-size: 16px;
     border: none;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -80,7 +86,7 @@ border-top: 3px solid;
 
 .filtres{
     display: flex;
-    margin-top: 20px;
+    margin: 30px 0 30px 0;
     align-items: center;
 }
 
@@ -123,7 +129,7 @@ margin-left: 0px;
 .info{
     display: flex;
     align-items: center;
-    margin: 1em 0 1em 0;
+    margin-bottom: 30px;
 }
 
 .infoicone{
@@ -141,7 +147,7 @@ margin-left: 0px;
 
 .home{
     background-color: #F2F2F2;
-    padding: 2em;
+    padding: 40px;
     max-width: 800px;
     border-radius: 20px;
 }
@@ -209,8 +215,8 @@ justify-content: space-between;
 .populaire{
     background-color: #F2F2F2;
     border-radius: 20px;
-    width: 343px;
-    padding: 37px;
+    width: 340px;
+    padding: 40px;
 }
 
 .h2populaires{
