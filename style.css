@@ -72,6 +72,10 @@ border-top: 3px solid;
     padding-left: 20px;
 }
 
+input::placeholder{
+    color:black;
+}
+
 .boutonrecherche{
     width: 134px;
     color: white;
@@ -171,6 +175,10 @@ margin-left: 0px;
 }
 
 
+.cartelogement:hover{
+    transform: scale(1.02);
+}
+
 .imagefigure{
     margin: 0px;
 }
@@ -198,6 +206,10 @@ h3{
 .etoiles{
     margin: 2px 0 6px 11px;
     color: #0065FC;
+}
+
+.grise
+{color: #F2F2F2;
 }
 
 .afficherplus{
@@ -229,6 +241,10 @@ justify-content: space-between;
     border-radius: 20px;
     padding: 5px;
     margin-top: 20px;
+}
+
+.cartelogementpopulaires:hover{
+    transform: scale(1.02);
 }
 
 .logementimagepopulaires{
@@ -264,9 +280,13 @@ justify-content: space-between;
 .carteactivités{
     width: 302px;
     height: 445px;
-    background-color: #F2F2F2;
     border-radius: 20px;
     margin-top: 30px;
+    box-shadow: 0 0 20px lightgrey;
+}
+
+.carteactivités:hover{
+    transform: scale(1.02);
 }
 
 .carteactivitésimage{
@@ -283,9 +303,13 @@ justify-content: space-between;
 .carteactivités2{
     width: 302px;
     height: 235px;
-    background-color: #F2F2F2;
     border-radius: 20px;
     margin-top: 30px;
+    box-shadow: 0 0 20px lightgrey;
+}
+
+.carteactivités2:hover{
+    transform: scale(1.02);
 }
 
 .carteactivitésimage2{
@@ -298,9 +322,13 @@ justify-content: space-between;
 .carteactivités3{
     width: 302px;
     height: 164px;
-    background-color: #F2F2F2;
     border-radius: 20px;
     margin-top: 45px;
+    box-shadow: 0 0 20px lightgrey;
+}
+
+.carteactivités3:hover{
+    transform: scale(1.02);
 }
 
 .carteactivitésimage3{
@@ -314,9 +342,13 @@ justify-content: space-between;
 .carteactivités4{
     width: 302px;
     height: 194px;
-    background-color: #F2F2F2;
     border-radius: 20px;
     margin-top: 30px;
+    box-shadow: 0 0 20px lightgrey;
+}
+
+.carteactivités4:hover{
+    transform: scale(1.02);
 }
 
 .carteactivitésimage4{
@@ -329,9 +361,13 @@ justify-content: space-between;
 .carteactivités5{
     width: 302px;
     height: 210px;
-    background-color: #F2F2F2;
     border-radius: 20px;
     margin-top: 40px;
+    box-shadow: 0 0 20px lightgrey;
+}
+
+.carteactivités5:hover{
+    transform: scale(1.02);
 }
 
 .carteactivitésimage5{
