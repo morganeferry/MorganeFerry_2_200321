@@ -11,6 +11,13 @@
     padding-right: 50px;
 }
 
+@media screen and (min-width: 0px max-width: 375px)
+{
+    header.haut{
+        width: 375px;
+    }
+}
+
 
 header.haut{
     display: flex;
@@ -34,6 +41,7 @@ text-decoration: none;
 color: #0065FC;
 border-top: 3px solid;
 }
+
 
 .headernavinscription{
     color: #0065FC;
