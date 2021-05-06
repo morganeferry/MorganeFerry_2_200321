@@ -11,17 +11,18 @@
     padding-right: 50px;
 }
 
-@media screen and (min-width: 0px max-width: 375px)
-{
-    header.haut{
-        width: 375px;
-    }
-}
-
 
 header.haut{
+    position: relative;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.logo{
+    position:absolute;
+    left: 0px;
+    top : 10px;
 }
 
 .headerNav{
@@ -35,6 +36,8 @@ color:black;
 font-weight: 500;
 padding: 30px;
 text-decoration: none;
+display: flex;
+flex-wrap: wrap;
 }
 
 .headernavlink:hover{
@@ -48,6 +51,21 @@ border-top: 3px solid;
     padding: 30px;
     text-decoration: none;
     font-weight: 600;
+}
+
+.inscription{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 650px)
+{
+    .wrapper{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 }
 
 .titreh1{
@@ -93,13 +111,27 @@ input::placeholder{
     border: none;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
+
+@media screen and (min-width: 576px)
+    {
+        .loupe{
+            display: none !important;
+        }
+    }
+
+
 
 .filtres{
     display: flex;
-    margin: 30px 0 30px 0;
+    margin: 20px 0 30px 0;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .h2filtres{
@@ -112,6 +144,7 @@ margin-left: 0px;
     border: 2px #F2F2F2 solid;
     border-radius: 30px;
     margin-right: 24px;
+    margin-top: 10px;
     display: flex;
     align-items: center;
 }
@@ -141,7 +174,7 @@ margin-left: 0px;
 .info{
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .infoicone{
@@ -159,6 +192,7 @@ margin-left: 0px;
 
 .home{
     background-color: #F2F2F2;
+    margin-top: 20px;
     padding: 40px;
     max-width: 800px;
     border-radius: 20px;
@@ -229,11 +263,13 @@ h3{
 .hebergement{
 display: flex;
 justify-content: space-between;
+flex-wrap: wrap;
 }
 
 
 .populaire{
     background-color: #F2F2F2;
+    margin-top: 10px;
     border-radius: 20px;
     width: 340px;
     padding: 40px;
@@ -249,6 +285,7 @@ justify-content: space-between;
     border-radius: 20px;
     padding: 5px;
     margin-top: 20px;
+    height: 134px;
 }
 
 .cartelogementpopulaires:hover{
@@ -267,7 +304,7 @@ justify-content: space-between;
 }
 
 .etoilespopulaires{
-    margin: 50px 0 6px 11px;
+    margin: 45px 0 0px 11px;
     color: #0065FC;
 }
 
@@ -283,6 +320,7 @@ justify-content: space-between;
 .flexactivités{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .carteactivités{
@@ -389,9 +427,11 @@ justify-content: space-between;
 .footer{
     max-width: 1440px;
     margin: 0 auto;
+    padding-left: 50px;
     background-color: #F2F2F2;
     margin-top: 60px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .colonne1{
@@ -410,13 +450,181 @@ justify-content: space-between;
 .colonne3{
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 30px 200px 30px 30px;
 }
 
 .lien{
-    margin: 10px;
+    margin: 6px 30px 6px 0;
 }
 
 .h3footer{
-    margin: 10px;
+    margin: 10px 0 10px 0;
+}
+
+
+@media screen and (max-width: 575px)
+{
+    .headernavinscription{
+        order: 1;
+    }
+
+    .headerNav{
+        order: 2;
+    }
+
+    .wrapper{
+        padding: 0px;
+    }
+
+    .logo{
+    top: 20px;
+    left: 20px;
+    }
+
+    .headernavinscription{
+        padding: 35px 30px 25px 30px;
+    }
+
+    .headernavlink{
+        padding: 20px;
+        border-bottom: 3px solid #F2F2F2;
+        width: 148px;
+        justify-content: center;
+    }
+
+    .headernavlink:hover{
+        color: #0065FC;
+        border-top: none;
+        border-bottom: 3px solid;
+        }
+
+    .sectionrecherche{
+        padding: 20px;
+    }
+
+    .titreh1 {
+        font-size: 23px;
+    }   
+
+    .recherche {
+        margin: 20px 0 20px 0;
+    }
+
+    .rechercher{
+        display: none;
+    }
+
+    .boutonrecherche {
+        width: 60px;
+    }
+
+    .h2filtres {
+        margin-right: 92px;
+    }
+
+    .filtrebloc{
+        margin-right: 5px;
+    }
+
+    .info{
+        font-size: 15px;
+        align-items: initial;
+        margin-bottom: 5px;
+    }
+
+    .infoo{
+        font-size: 10px;
+    }
+
+    .infoicone{
+        width: 2em;
+        height: 1.5em;
+    }
+
+    .populaire{
+        order: 1;
+        border-radius: 0px;
+        padding: 30px 20px 20px 20px;
+    }
+
+    .home{
+        order: 2;
+        background-color: white;
+        padding: 20px;
+    }
+    .cartelogement{
+        width: 100%;
+        box-shadow: 0 0 20px lightgrey;
+    }
+
+    .activité{
+        padding: 20px;
+        margin-top: 10px;
+    }
+
+    .carteactivités{
+        width: 100%;
+        height: 190px;
+    }
+    .carteactivitésimage{
+        width: 100%;
+        height: 134px;
+    }
+
+    .carteactivités2{
+        width: 100%;
+        height: 190px;
+    }
+    .carteactivitésimage2{
+        width: 100%;
+        height: 134px;
+    }
+
+    .carteactivités3{
+        width: 100%;
+        height: 190px;
+        margin-top: 30px;
+    }
+    .carteactivitésimage3{
+        width: 100%;
+        height: 134px;
+    }
+
+    .carteactivités4{
+        width: 100%;
+        height: 190px;
+    }
+    .carteactivitésimage4{
+        width: 100%;
+        height: 134px;
+    }
+
+    .carteactivités5{
+        width: 100%;
+        height: 190px;
+        margin-top: 30px;
+    }
+    .carteactivitésimage5{
+        width: 100%;
+        height: 134px;
+    }
+
+
+    .footer{
+        padding-left: 0;
+        margin-top: 30px;
+    }
+    
+    .colonne1{
+        padding: 30px 0 20px 30px;
+    }
+    .colonne2{
+        padding: 0 0 20px 30px;
+    }    
+    .colonne3{
+        padding: 0 0 20px 30px;
+    }    
+
+
+
 }
