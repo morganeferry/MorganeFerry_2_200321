@@ -60,13 +60,6 @@ border-top: 3px solid;
     flex-wrap: wrap;
 }
 
-@media screen and (max-width: 650px)
-{
-    .wrapper{
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-}
 
 .titreh1{
     font-size: 30px;
@@ -477,8 +470,8 @@ flex-wrap: wrap;
     }
 
     .logo{
-    top: 20px;
-    left: 20px;
+        top: 20px;
+        left: 20px;
     }
 
     .headernavinscription{
@@ -625,6 +618,125 @@ flex-wrap: wrap;
         padding: 0 0 20px 30px;
     }    
 
-
-
 }
+
+@media screen and (min-width: 576px max-width: 768px)
+{
+    .wrapper{
+        padding: 0px;
+    }
+
+    .logo{
+        top: 20px;
+        left: 30px;
+        }
+
+        .sectionrecherche{
+            padding: 30px;
+        }
+
+        .titreh1{
+            font-size: 32px;
+        }
+
+        .filtrebloc{
+            margin-right: 30px;
+        }
+
+        .filtrerond{
+            width: 55px;
+            height: 55px;
+        }
+
+        .info{
+            margin-bottom: 0;
+        }
+
+        .hebergement{
+            margin: 0 30px 0 30px;
+        }
+
+        .cartelogement{
+            width: 286px;
+        }
+
+        .populaire{
+            margin-top: 20px;
+            width: 100%;
+        }
+
+        .logementimagepopulaires{
+            width: 210px;
+        }
+
+        .etoilespopulaires {
+            margin: 65px 0 0px 11px;
+        }
+
+        .activité{
+            margin: 65px 30px 0 30px;
+        }
+
+
+        .carteactivités{
+            width: 332px;
+        }
+
+        .carteactivitésimage{
+            width: 100%;
+        }
+
+
+        .carteactivités2{
+            width: 332px;
+        }
+
+        .carteactivitésimage2{
+            width: 100%;
+        }
+
+
+        .carteactivités3{
+            width: 332px;
+        }
+
+        .carteactivitésimage3{
+            width: 100%;
+        }
+
+
+        .carteactivités4{
+            width: 332px;
+        }
+
+        .carteactivitésimage4{
+            width: 100%;
+        }
+
+
+        .carteactivités5{
+            width: 332px;
+        }
+
+        .carteactivitésimage5{
+            width: 100%;
+        }
+
+        .footer{
+            padding-left: 0;
+        }
+
+        .colonne1{
+            padding: 30px 0 30px 30px;
+        }
+
+        .colonne2{
+            padding: 30px 10px 30px 30px;
+        }
+
+        .colonne3{
+            padding: 30px 0 30px 50px;
+        }
+}
+
+
