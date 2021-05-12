@@ -132,6 +132,10 @@ margin-right: 32px;
 margin-left: 0px;
 }
 
+.filtrealignement{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .filtrebloc{
     border: 2px #F2F2F2 solid;
@@ -463,6 +467,7 @@ flex-wrap: wrap;
 
     .headerNav{
         order: 2;
+        width: 100%;
     }
 
     .wrapper{
@@ -481,7 +486,7 @@ flex-wrap: wrap;
     .headernavlink{
         padding: 20px;
         border-bottom: 3px solid #F2F2F2;
-        width: 148px;
+        width: 100%;
         justify-content: center;
     }
 
@@ -511,10 +516,6 @@ flex-wrap: wrap;
         width: 60px;
     }
 
-    .h2filtres {
-        margin-right: 92px;
-    }
-
     .filtrebloc{
         margin-right: 5px;
     }
@@ -536,6 +537,7 @@ flex-wrap: wrap;
 
     .populaire{
         order: 1;
+        width: 100%;
         border-radius: 0px;
         padding: 30px 20px 20px 20px;
     }
@@ -612,7 +614,7 @@ flex-wrap: wrap;
         padding: 30px 0 20px 30px;
     }
     .colonne2{
-        padding: 0 0 20px 30px;
+        padding: 0 20px 20px 30px;
     }    
     .colonne3{
         padding: 0 0 20px 30px;
@@ -620,7 +622,7 @@ flex-wrap: wrap;
 
 }
 
-@media screen and (min-width: 576px max-width: 768px)
+@media (min-width: 576px) and (max-width: 768px)
 {
     .wrapper{
         padding: 0px;
@@ -640,16 +642,25 @@ flex-wrap: wrap;
         }
 
         .filtrebloc{
-            margin-right: 30px;
+            margin: 5px 10px 5px 0;
         }
 
         .filtrerond{
-            width: 55px;
-            height: 55px;
+            width: 45px;
+            height: 45px;
+        }
+
+        .filtrenom{
+            font-size: 15px;
+            margin: 0 5px;
         }
 
         .info{
             margin-bottom: 0;
+        }
+
+        .home{
+            margin-top: 0;
         }
 
         .hebergement{
@@ -737,6 +748,14 @@ flex-wrap: wrap;
         .colonne3{
             padding: 30px 0 30px 50px;
         }
+
+
+        .h2filtres {
+            margin-right: 12px;
+            font-size: 20PX;
+        }
+
+
 }
 
 
