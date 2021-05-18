@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: Raleway; sans-serif;
+    font-family: Raleway, sans-serif;
 }
 
 .wrapper{
@@ -555,6 +555,10 @@ flex-wrap: wrap;
     .activité{
         padding: 20px;
         margin-top: 10px;
+    }
+
+    .format2{
+        width: 100%;
     }
 
     .carteactivités{
