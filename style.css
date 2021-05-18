@@ -144,6 +144,11 @@ margin-left: 0px;
     margin-top: 10px;
     display: flex;
     align-items: center;
+    cursor: pointer;
+}
+
+.filtrebloc:hover{
+    background-color: rgb(246, 250, 253);
 }
 
 
